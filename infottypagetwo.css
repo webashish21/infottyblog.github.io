@@ -1,0 +1,254 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #F9F9FF;
+}
+
+/******************************************************footer****************************** */
+
+.menustyle ul a::after {
+    width: 0;
+    content: "";
+    bottom: 0;
+    height: 0;
+    display: block;
+    background-color: white;
+    transition: .4s ease-in-out;
+}
+.menustyle ul a.active::after {
+    width: 100%;
+    content: "";
+    bottom: 0;
+    height: 2px;
+    background-color: white;
+    transition: .4s ease-in-out;
+}
+.menustyle ul a:hover::after{
+    width: 100%;
+    height: 2px;
+}
+.backgroundimg{
+    width: 1280px;
+    padding: 0px !important;
+    position: relative;
+    
+}
+/* This is body design */
+/* .backgroundimg .shape {
+    width: 70%;
+    position: absolute;
+    margin: 600px 0 0 -300px;
+    transform: rotate(7deg);
+} */
+
+.backgroundimg img{
+    
+    width: 100%;
+}
+.backgroundimg .wave{
+    background-position: top left;
+    height: auto;
+    
+}
+header{
+    position: absolute;
+    float: left;
+    width: 100%;
+}
+.logo h2{
+    float: left;
+    position: absolute;
+    color: white;
+    margin-left: 60px; 
+    font: italic bold 40px 'Segoe UI'; /*font-style, font-weight, font-size, font-family*/
+}
+
+.menustyle ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.menustyle ul{
+    margin: 0 32%;
+}
+.menustyle ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* landing page */
+.landingpagecontent h1{
+    color: #536DFE;
+    font-size: 60px;
+    font-weight: bold;
+}
+.landingpagecontent h1 span{
+    color: #434175;
+}
+.landingpagecontent img {
+    width: 55%;
+}
+
+/* card design */
+.service_card:hover{
+    background-color: #B1BCFC;
+
+}
+
+.service_card:hover .img   {
+    background-color: #B1BCFC;
+    transform: scale(1.08);
+}
+
+.service_card{
+    background-color: #6980FE;
+    border-radius: 15px;
+    padding: 15px 30px;
+    transition: .4s ease-in;
+ 
+}
+.service_card h5  {
+    margin-bottom: 15px;
+    color: white;
+    transition: .3s ease-in;
+}
+.service_card:hover h5  {
+    color: #434175;
+}
+.service_card h5 span {
+    float: right;
+    width: 15px;
+    height: 15px;
+    background: #D0D6FA;
+    border-radius: 50%;
+    margin: 2% 0;
+}
+.img {
+    background: white;
+    border-radius: 15px;
+    transition: .4s ease-in;
+
+}
+.contenttext {
+    padding:15px 15px 0 ;
+    color: white;
+    text-align: justify;
+    transition: .3s ease-in;
+}
+.service_card:hover .contenttext {
+    color: #434175;
+
+}
+/* card design end */
+
+
+.fab{
+    line-height: 47px !important;
+    color: white;
+    float: right;
+    margin-right: 15px;
+} 
+.fa-instagram{
+    margin-right: 0px !important; 
+}
+header{
+    width: 1280px;
+}
+
+/******************************************************footer****************************** */
+/* footer FORM */
+.mainfooterform{
+    position: absolute;
+    bottom: 70px !important;
+    width: 100% !important;
+    padding-right: var(--bs-gutter-x,.75rem) !important;
+    padding-left: var(--bs-gutter-x,.75rem) !important;
+    margin: 0 9% !important;
+
+}
+
+.formfooter .message{
+    display: flex;
+}
+.formfooter input[type=submit]{
+    padding: 7px 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: #B1BCFC;
+    color: #536DFE;
+    border: none;
+    font-weight: bold;
+}
+.formfooter input[type=email]{
+    border: none;
+    width: 60%;
+    border-radius: 15px;
+    padding: 8px 0 8px 10px;
+}
+.formfooter input[type=text]{
+    border: none;
+    width: 60%;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 8px 0 90px 10px;
+}
+/* .formfooter input[type=text]::placeholder{
+
+  } */
+.formfooter input[type=email], input[type=text]{
+    background-color: #F9F9FF;
+}
+.formfooter input[type=email], input[type=text]:focus{
+    outline: none;
+}
+.letstalk {
+    padding-top: 20px;
+}
+.letstalk p {
+    
+    color: #fff;
+    text-align: center;
+}
+.letstalk h1 {
+    
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Tempus Sans ITC';
+    text-align: center;
+}
+
+
+.footer {
+    position: relative;
+    float: left;
+    background: url(image/wave\ 1.png) no-repeat bottom left;
+    width: 100%;
+    min-height: 450px;
+}
+
+ .lady-working h1{
+    font-size: 80px;
+    float: right;
+    color: #536DFE;
+    font-family: 'Tempus Sans ITC';
+    text-align: center;
+    margin: 85px auto;
+}
+.lady-working img{
+    margin-bottom: -47px;
+}
+
+.footersetbottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footersetbottom p{
+        color: white;
+        margin: 13px 0 0px 27px !important;
+    }
+
